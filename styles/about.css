@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/bg2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+}
+
+footer {
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    font-size: 10px;
+    opacity: 80%;
+
+    top: 100%;
+    width: 100%;
+}
+/* ==========================================================================================*/
+/* about us theme stuffs */
+.container {
+    position: relative;
+    left: 29%;
+}
+  
+.image {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #110d0d91;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.noMargin {
+    margin: 0px;
+}
+/* ==========================================================================================*/

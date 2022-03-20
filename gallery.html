@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="styles/gallery.css">
+		<link rel="stylesheet" href="styles/navbar.css"> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Gallery | KIZURASG  </title>
+
+    </head>
+    
+	<body>
+
+		<header>
+			<div id="navbar" class="topnav">
+				<a href="index.html"> <img alt="logo" src="images/Kizurasg.png" width="142" height="37"> </a>
+				<nav>
+					<a href="index.html">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn active">Fun
+							<i class="fa fa-caret-content"></i>
+						</button>
+						<div class="dropdown-content">
+							<a class="active" href="gallery.html">Gallery</a>
+							<a href="kizzerQuiz.html">Kizer Quiz</a>
+						</div>
+					</div>
+					<a href="shop.html">Shop</a>
+					<div class="dropdown">
+						<button class="dropbtn">More
+							<i class="fa fa-caret-content"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="svg.html">SVG</a>
+							<a href="about.html">About Us</a>
+							<a href="contact.html">Contact Us</a>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div id="gallery">
+			<div id="img1" class="thumbnail" onclick="img1()">
+				<img onmouseover="expandedImage(this)" onmouseout="normalImage(this)" src="images/1.png" alt="" class="ThumbnailImage">
+				
+			</div>
+			<div id="img2" class="thumbnail" onclick="img2()">
+				<img onmouseover="expandedImage(this)" onmouseout="normalImage(this)" src="images/2.png" alt="" class="ThumbnailImage">                
+			</div>
+			<div id="img3" class="thumbnail" onclick="img3()">
+				<img onmouseover="expandedImage(this)" onmouseout="normalImage(this)" src="images/3.png" alt="" class="ThumbnailImage">                
+			</div>
+			<div id="img4" class="thumbnail" onclick="img4()">
+				<img onmouseover="expandedImage(this)" onmouseout="normalImage(this)" src="images/4.png" alt="" class="ThumbnailImage">                
+			</div>
+			<div id="img5" class="thumbnail" onclick="img5()">
+				<img onmouseover="expandedImage(this)" onmouseout="normalImage(this)" src="images/5.png" alt="" class="ThumbnailImage">                
+			</div>
+
+		</div>
+		
+		<div id = "Color">
+			<div class = "bgColor">
+			<!--background color-->
+				<label>BG Color</label>
+				<select name="clr" onchange="document.bgColor=this.options[this.selectedIndex].value" size="1">
+				<option value = #000000>Black
+				<option value = #E77471>Pink
+				<option value = #7D0552>Purple
+				<option value = #728FCE>Light Blue
+				<option value = #008000>Green
+				<option value = #FFFFFF>White
+				</select>
+			</div>
+
+			<div class = "txtColor">
+			<!--text color-->
+				<label>Text Color</label>
+				<select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="1">
+				<option value = #000000>Black
+				<option value = #E77471>Pink
+				<option value = #7D0552>Purple
+				<option value = #728FCE>Light Blue
+				<option value = #008000>Green
+				<option value = #FFFFFF>White
+				</select>
+			</div>
+		</div>
+		
+
+	<footer class="sticky-footer">
+	<p><a class="footer-text" href="4-editors-page.html" target="_blank">EditorsPage</a></p>
+	</footer>
+
+	<script src="scripts/gallery.js"></script>
+    </body>
+</html>

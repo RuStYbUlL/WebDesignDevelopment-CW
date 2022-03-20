@@ -1,0 +1,115 @@
+     body {
+        margin: 0;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        /*background-image: url("images/bg2.png");*/
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+        background-position: center;
+        background-size: cover;
+        padding: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+		overflow-y: hidden;
+        overflow-x: hidden;
+
+    }
+
+
+	
+	/* Gallery Styles */
+	    
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .thumbnail{
+        cursor: pointer;
+        opacity: 0.8; 		
+
+    }
+    .ThumbnailImage{
+        float: left;
+        width: 201.33px;
+        height: 201.33px;
+        padding: 10px;
+        
+	}
+
+    .thumbnail:hover {
+        position: relative;
+        z-index: 5;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    #displayedImage{
+        width: 30%;
+        float: left;
+        margin-left: 5%;
+        
+    }
+
+    #description{
+        width: 40%;
+        padding: 1% 5%;
+        font-size: 17px;    
+        height: 600px;
+        float: left;
+        font-family: sans-serif;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    #backIcon{
+        color: rgb(255, 255, 255);
+        padding: 3px 5px;
+        margin-top: 35px;
+        transition: .5s;
+        background-color: rgb(199, 61, 61);
+        font-size: 20px;
+        border-color: black;
+        font-family: 'Oswald', sans-serif;
+		position: relative;
+        float: right;
+
+
+    }
+	
+	.bgColor{
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	}
+	
+	.txtColor{
+		font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	}
+	
+	footer {
+		text-align: center;
+		background-color: whitesmoke;
+		color: black;
+		padding: 1%;
+		font-size: 7%;
+		width:100%;
+		opacity: 80%;
+	}
+	.sticky-footer {
+		position: absolute;
+		bottom: 0px;
+	}
+
+	.footer-text {
+		text-decoration: none;
+		color: black;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color: black;
+		background-color: transparent;
+		font-size: 10px;	
+		padding-top: 5px;
+		padding-bottom: 50px;
+		padding-left: 45%;
+		padding-right: 50%;
+		letter-spacing: 5px;
+	}

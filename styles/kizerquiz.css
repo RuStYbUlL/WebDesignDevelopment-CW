@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/bg2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px; 
+    overflow-x: hidden;
+}
+
+footer {
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    font-size: 10px;
+    opacity: 80%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+/* ==========================================================================================*/
+/* Quiz theme stuffs */
+#frame001 {
+    height: 596px;
+    width: 596px;
+    
+    border: 3px solid black;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 6px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    /* top: 94px;/* 
+    left: 622px;*/
+}
+.framebg{
+    background-color: rgba(255, 255, 255, 0.562);
+}
+.frameW { 
+    background-color: rgba(0, 255, 106, 0.5); 
+}
+.frameL { 
+    background-color: rgb(255, 0, 0, 0.5); 
+}
+
+.monki {
+    /*position: fixed;*/
+    opacity: 1;
+
+    position:absolute;
+    top:50.5%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    /*
+    top: 19%;
+    left: 35%;  /*647px*/
+    
+}
+
+#center001 {
+    text-align: center;
+    color: black;
+}  
+
+/* TIMER BAR THEME */
+progress[value] {
+    /* Gets rid of the default appearance */
+    appearance: none;
+    border: none;
+    
+    /*dimensions */
+    width: 60%; height: 15px;
+    
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+    color: royalblue;
+    position: relative;
+    margin: 0 0 1.5em; 
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+}
+
+progress[value]::-webkit-progress-value {
+    position: relative;
+    
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    border-radius:3px;
+    animation: animate-stripes 5s linear infinite;
+}
+
+/* Fallback styles */
+.progress-bar {
+    background-color: whiteSmoke;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+    width: 60%; height:15px;
+}
+
+.progress-bar span {
+    background-color: royalblue;
+    border-radius: 3px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.html5::-webkit-progress-value{
+    /* Actual Colour modifying */
+    background-image:
+
+    -webkit-linear-gradient( top,
+        rgba(255, 255, 255, .25),
+        rgba(0,0,0,.2)),
+    -webkit-linear-gradient( left, #d1a546, #BF5959);
+}
+
+/* ==========================================================================================*/

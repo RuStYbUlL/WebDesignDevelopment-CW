@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-image: url("../images/bg2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-style: normal;
+    font-family: 'Segoe UI Symbol', Arial;
+    color:white;
+}
+
+.font-white{
+font-family: 'Segoe UI Symbol', Arial;
+color: white;
+}
+
+.font{
+font-family: 'Segoe UI Symbol', Arial;
+color: #555555;
+}
+
+.transbox {
+    margin: 1%;
+    background-color: #4040409c;
+    border-radius: 15px;
+    padding: 0.5% 0.5%;
+}
+
+  .center {
+text-align: center;
+}
+
+.spacing{
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+hr.rounded {
+border-top: 5px solid #A9A9A9;
+border-radius: 5px;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+.box {
+margin: 2%;
+background-color: #ffffff;
+border-radius: 15px;
+}
+
+.forPics {
+width: 100%;
+height: 100%;
+}
+
+.square {
+display: inline-block;  
+box-sizing: content-box;
+margin-top: 5%;
+margin-left: 5.5%;
+margin-right: 5%;
+width: 20%;
+height: 20%;
+border-radius: 15px;
+justify-content: center;
+display: inline-flex;
+align-items: center;
+padding: 1rem;
+background: white;
+color:#555555;
+}
+
+.rectangle {
+display: inline-block;  
+box-sizing: content-box;
+margin-top: 5%;
+margin-left: 5.5%;
+margin-right: 5%;
+width: 20%;
+height: 20%;
+border-radius: 15px;
+justify-content: center;
+display: inline-flex;
+align-items: center;
+padding: 1rem;
+background: white;
+color:#555555;
+}
+
+.form-control{
+font-family: 'Segoe UI Symbol', Arial;
+color: #555555;
+}
+
+.button {
+background-color:#555555;
+color:white;
+font-family: 'Segoe UI Symbol';
+border: none;
+margin-top: 1%;
+padding: 1% 1.5%;
+text-align: center;
+text-decoration: none;
+border-radius: 25px;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+
+.altButton {
+background-color:white;
+color:#555555;
+font-family: 'Segoe UI Symbol';
+border: none;
+margin-top: 1%;
+padding: 2% 5%;
+text-align: center;
+text-decoration: none;
+border-radius: 25px;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+
+.modal {
+display: none; 
+position: fixed;
+z-index: 99; 
+padding-top: 5%;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%; 
+overflow: auto; 
+background-color: black;
+background-color: rgba(0,0,0,0.4); 
+}
+
+.modalCon {
+z-index: 99; 
+background-color: #484848;
+width: 500px;
+height: 500px;
+margin: auto;
+padding: 2%;
+border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    font-size: 10px;
+    opacity: 80%;
+}

@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-y: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
+
+    /*min-width: 1300px; */
+}
+
+footer {
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 1%;
+    font-size: 7%;
+	width:100%;
+    opacity: 80%;
+}
+.sticky-footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: transparent;
+    font-size: 10px;	
+    padding-top: 5px;
+    padding-bottom: 50px;
+    padding-left: 45%;
+    padding-right: 50%;
+    letter-spacing: 5px;
+}
+
+
+
+
+/*SVG Styles*/
+.line{
+    stroke:rgb(0, 0, 0);
+    stroke-width:3
+}
+
+.rectStyle{
+    fill:rgb(179, 55, 55);
+    stroke:black;
+    stroke-width:5;
+}
+
+

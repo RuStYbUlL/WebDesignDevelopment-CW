@@ -1,0 +1,95 @@
+#bg{
+    background-color: #EA5E5E;
+    position: fixed;
+    width:100%;
+    height: 100%;
+    z-index: 999999;
+    top: 0;
+    left:0;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-name: fadeOut;
+    }
+
+#fader.fadeout{
+    opacity: 0;
+    animation-name: fadeOut;
+}
+
+.text{
+    color:white;
+    font-family: Georgia;
+    font-size: 156.25%;
+}
+
+.marginOne{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 17%;
+}
+
+.marginTwo{
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 17%;
+    margin-right: 20%;
+    margin-bottom: 17%;
+}
+
+.marginThree{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 66%;
+    margin-right: 20%;
+    margin-bottom: 17%;
+}
+
+.marginFour{
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 65%;
+    margin-right: 20%;
+    margin-bottom: 17%;
+}
+
+.imageAlignment{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 33%;
+}
+
+.fadein{
+    animation-duration: 0.5s;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in-out;
+}
+
+div{
+    animation-duration: 0.5s;
+    animation-name: fadeIn; 
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeOut{ 
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+
+@keyframes fadeIn {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+#wrapper {
+    width:100%
+}

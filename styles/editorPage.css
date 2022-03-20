@@ -1,0 +1,58 @@
+body {
+    background-image: url("../images/black.png");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    font-family: century gothic;
+    font-size: 20px;
+    }
+
+ul{
+    position: absolute;
+    list-style: inside;
+    margin-left: 100px;
+    margin-top: 1px;
+}
+
+.bg {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    align-items: center;
+    padding: 1rem;
+    background: white;
+    box-shadow: 10px 10px 45px #1D1C1A;
+    color:#555555;
+    text-align: center;
+}
+
+.picCrop{
+  border-radius: 500px;
+  border-color: #454443;
+  border-style: solid;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right:auto;
+  width: 250px;
+  height: 250px;
+}
+
+div{
+animation-name: fadeIn;
+animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
